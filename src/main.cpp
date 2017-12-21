@@ -34,7 +34,7 @@ int main()
   
   // Controller for steering around track
   PID steer_pid;
-  steer_pid.Init(0.08,0.001,1.0);
+  steer_pid.Init(0.15,0.0008,2.2);
   // Controller to maintain target speed
   PID throttle_pid;
   throttle_pid.Init(0.1,0,0);
